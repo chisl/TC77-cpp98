@@ -30,7 +30,7 @@ public:
 	
 	/*
 	 * REG CONFIG:
-	 * Select either Shutdown, Continuous Conversion or Test modes: 
+	 * Select either Shutdown, Continuous Conversion or Test modes:
 	 */
 	struct CONFIG
 	{
@@ -68,7 +68,7 @@ public:
 	
 	/*
 	 * REG TEMP:
-	 * holds the temperature conversion data. 
+	 * holds the temperature conversion data.
 	 */
 	struct TEMP
 	{
@@ -84,10 +84,10 @@ public:
 		/* Bits FLAG_COMPLETE: */
 		/*
 		 * Bit 2 is set to a logic1 after
-		 *           completion of the first temperature conversion following a power-up or reset event.
-		 *           Bit 2 is set to a logic 0 during the time needed to complete the first
-		 *           temperature conversion. Therefore, the status of bit 2 can be monitored to indicate
-		 *           that the TC77 has completed the first temperature conversion. 
+		 * completion of the first temperature conversion following a power-up or reset event.
+		 * Bit 2 is set to a logic 0 during the time needed to complete the first
+		 * temperature conversion. Therefore, the status of bit 2 can be monitored to indicate
+		 * that the TC77 has completed the first temperature conversion.
 		 */
 		struct FLAG_COMPLETE
 		{
@@ -124,7 +124,7 @@ public:
 	
 	/*
 	 * REG M_ID:
-	 * Manufacture's identification code 
+	 * Manufacture's identification code
 	 */
 	struct M_ID
 	{
